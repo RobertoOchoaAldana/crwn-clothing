@@ -9,7 +9,6 @@ import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import './header.styles.scss';
-import { toogleCartHidden } from '../../redux/cart/cart.actions';
 
 const Header = ({ currentUser, hidden }) => (
     <div className="header">
