@@ -23,4 +23,4 @@ const mapDispatchToProps = dispatch => ({
     clearItem: item => dispatch(clearItemFromCart(item))
 });
 
-export default connect(null, mapDispatchToProps)(CartItem);
+export default React.memo(connect(null, mapDispatchToProps)(CartItem));
